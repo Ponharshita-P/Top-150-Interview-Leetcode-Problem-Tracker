@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Button styles */
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 12px;
+    background-color: #ff6b6b; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(255, 107, 107, 0.2); /* Subtle shadow effect */
+}
+
+button:hover {
+    background-color: #e64c4c; /* Darker red on hover */
+}
+
+/* Filtering dropdown styles */
+.filter-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #555555;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 150px;
+    background-color: #ffffff;
+}
+
+/* Progress bar styles */
+.progress-container {
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures rounded corners are applied */
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #007bff; /* Blue color */
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    width: 0;
+    transition: width 0.5s ease;
+    border-radius: 10px; /* Rounded corners for progress bar */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+}
